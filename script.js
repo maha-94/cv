@@ -106,3 +106,7 @@ function applyLang(lang) {
   if (heroHighlight)
     heroHighlight.textContent = lang === "ar" ? "مها علي" : "Maha Ali";
 }
+//change lungueg
+/*document.querySelectorAll('[data-ar]').forEach(el => {
+  el.textContent = isArabic ? el.dataset.ar : el.dataset.en;
+});*/
