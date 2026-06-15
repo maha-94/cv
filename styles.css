@@ -603,3 +603,11 @@ footer span {
     transition: none !important;
   }
 }
+
+#contact {
+  background: var(--white);
+}
+
+.contact-card {
+  max-width: 500px;
+}
