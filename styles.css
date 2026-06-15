@@ -347,7 +347,7 @@ html[lang="en"] .section-title {
 .about-grid {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 4rem;
 }
 
 .about-card {
@@ -355,6 +355,7 @@ html[lang="en"] .section-title {
   border-radius: var(--radius);
   padding: 2rem;
   border: 1px solid var(--warm-off);
+  max-width: 600px;
 }
 
 .about-card p {
